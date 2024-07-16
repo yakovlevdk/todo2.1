@@ -38,9 +38,8 @@ function App() {
           handleSearch={handleSearch}
           resetSearch={resetSearch}
         />
-        <form>
-          <button onClick={(event) => sortTodos(event)}>Сортировать</button>
-        </form>
+
+        <button onClick={(event) => sortTodos(event)}>Сортировать</button>
       </div>
 
       <div className="todo-list">

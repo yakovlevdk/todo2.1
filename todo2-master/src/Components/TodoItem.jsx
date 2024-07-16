@@ -21,5 +21,3 @@ export const TodoItem = ({ id, title, setRefresh, refresh }) => {
     </li>
   );
 };
-
-export default TodoItem;
